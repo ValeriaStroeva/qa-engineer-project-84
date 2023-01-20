@@ -1,0 +1,40 @@
+---
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
+- summary: |
+    Отображение описания карточки товара
+  status: pass
+  
+- summary: |
+    Проверка фильтра по цене
+  status: pass
+
+- summary: |
+    Удаление товара из корзины
+  status: pass
+  
+- summary: |
+    Очистка корзины
+  status: pass
+  
+- summary: |
+    Оформление заказа
+  status: pass
+  
+- summary: |
+    Смена языка сайта
+  status: pass
+  
+- summary: |
+    Продолжние покупок
+  status: pass
+  
+- summary: |
+    Проверка фильтра по производителю
+  status: pass
+  
+- summary: |
+    Проверка поисковой формы
+  status: pass
