@@ -4,9 +4,8 @@ job: QA Engineer
 level: junior
 email: valeria.stroeva@yandex.ru
 description: |
-  Это текст-описание в свободной форме. Здесь можно рассказать пару интересных фактов про себя
+  The road to hell is paved with good intentions
 
-  Текст может быть написан в несколько абзацев
 skills:
   - ручное тестирование
   - функциональное тестирование
