@@ -76,7 +76,7 @@ bugreports:
   steps-to-reproduce: |
     В фильтре Brand отметить чекбокс "OPPO"
   expected-result: |
-    Фильтр Brand выдает результаты с фиксированным размером карточек товаров.
+    Фиксированный размер карточек товаров.
   actual-result: |
     Съехала верстка карточки товара.
     Проблема проявляется в чекбоксах: OPPO, APPle, Infinix, Royal_Mirage, Lord - Al-Rehab, Saaf & Khaas, Baking Food Items, Dry Rose, Boho Decor, Golden.
