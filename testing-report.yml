@@ -4,7 +4,7 @@
   status: pass
 
 - summary: |
-    Отображение описания карточки товара
+    Открытие карточки товара
   status: pass
   
 - summary: |
@@ -20,7 +20,7 @@
   status: pass
   
 - summary: |
-    Оформление заказа
+    Проверка отображения окна успешного оформления заказа
   status: pass
   
 - summary: |
@@ -28,7 +28,7 @@
   status: pass
   
 - summary: |
-    Продолжние покупок
+    Проверка кнопки Continue Shopping
   status: pass
   
 - summary: |
@@ -36,5 +36,5 @@
   status: pass
   
 - summary: |
-    Проверка поисковой формы
+    Проверка фильтра по ключевому слову
   status: pass
