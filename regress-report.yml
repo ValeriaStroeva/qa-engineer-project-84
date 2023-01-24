@@ -5,7 +5,7 @@ test-cases:
   status: pass
 
 - summary: |
-    Отображение описания карточки товара
+    Открытие карточки товара
   status: pass
   
 - summary: |
@@ -21,7 +21,7 @@ test-cases:
   status: fail
   
 - summary: |
-    Оформление заказа
+    Проверка отображения окна успешного оформления заказа
   status: pass
   
 - summary: |
@@ -29,7 +29,7 @@ test-cases:
   status: fail
   
 - summary: |
-    Продолжние покупок
+    Проверка кнопки Continue Shopping
   status: pass
   
 - summary: |
@@ -37,25 +37,25 @@ test-cases:
   status: pass
   
 - summary: |
-    Проверка поисковой формы
+    Проверка фильтра по ключевому слову
   status: pass
 
 bugreports:
 - summary: |
-    Поле поиска выдает нерелевантные запросу результаты
+    Не работает поиск по ключевому слову
   environment: |
     Google Chrome 109.0.5414.87 (Официальная сборка), (arm64)
     OC macOS Ventura 13.1
   steps-to-reproduce: |
     В поле поиска ввести "hause"
   expected-result: |
-    При вводе в поисковое поле ключевых слов выдаются товары, содержащие данные ключевые слова
+    Поисковое поле выдает товары, содержащие ключевое слово
   actual-result: |
-    Поле поиска выдает нерелевантные запросу результаты.
+    Не работает поиск по ключевому слову.
     Ошибка изображена на скриншоте search2.png
     
 - summary: |
-    Фильтр товаров по цене выдает нерелевантные результаты
+    Не работает фильтр по цене
   environment: |
     Google Chrome 109.0.5414.87 (Официальная сборка), (arm64)
     OC macOS Ventura 13.1
@@ -63,13 +63,13 @@ bugreports:
     1. В фильтре Price выбрать "from 12"
     2. В фильтре Price выбрать "to -765"
   expected-result: |
-    Фильтр товаров по цене выдает релевантные результаты.
+    Фильтр выдает товары согласно введеных значений.
   actual-result: |
-    Фильтр товаров по цене выдает нерелевантные результаты.
+    Не работает фильтр по цене, можно ввести отрицательные значения.
     Ошибка изображена на скриншоте price2.png
 
 - summary: |
-    При выборе одного из фильтров Brand, съезжает верстка и меняется размер карточки чекбоксов: OPPO, APPle, Infinix, Royal_Mirage, Lord - Al-Rehab, Saaf & Khaas, Baking Food Items, Dry Rose, Boho Decor, Golden, при наличии только одного товара  
+    Съехала верстка карточки товара
   environment: |
     Google Chrome 109.0.5414.87 (Официальная сборка), (arm64)
     OC macOS Ventura 13.1
@@ -78,5 +78,6 @@ bugreports:
   expected-result: |
     Фильтр Brand выдает результаты с фиксированным размером карточек товаров.
   actual-result: |
-    При выборе одного из фильтров Brand, съезжает верстка и меняется размер карточки чекбоксов: OPPO, APPle, Infinix, Royal_Mirage, Lord - Al-Rehab, Saaf & Khaas, Baking Food Items, Dry Rose, Boho Decor, Golden, при наличии только одного товара.
+    Съехала верстка карточки товара.
+    Проблема проявляется в чекбоксах: OPPO, APPle, Infinix, Royal_Mirage, Lord - Al-Rehab, Saaf & Khaas, Baking Food Items, Dry Rose, Boho Decor, Golden.
     Ошибка изображена на скриншоте brands.png
