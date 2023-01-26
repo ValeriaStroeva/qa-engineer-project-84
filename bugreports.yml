@@ -53,16 +53,16 @@
     Ошибка изображена на скриншоте internet.png
     
 - summary: |
-    Дублируются чекбоксы одного бренда Apple при фильтрации по производителю
+    Дублируется бренд Apple в списке производителей
   environment: |
     Google Chrome 109.0.5414.87 (Официальная сборка), (arm64)
     OC macOS Ventura 13.1
   steps-to-reproduce: |
     В фильтре Brand найти чекбоксы Apple и APPle
   expected-result: |
-    В фильтре Brand один чекбокс и бренд Apple.
+    В фильтре Brand один бренд Apple.
   actual-result: |
-    В фильтре Brand дублируются чекбоксы одного производителя: Apple и APPle.
+    В фильтре Brand дублируются бренды одного производителя: Apple и APPle.
     Ошибка изображена на скриншоте apple.png
     
 - summary: |
