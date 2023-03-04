@@ -3,13 +3,13 @@
 
 Содержимое файлов:
 
-- requirements.yml (проработка и дополнение требований к приложению):
+1) requirements.yml (проработка и дополнение требований к приложению):
 
-** functional — функциональные требования;
-** non-functional — нефункциональные требования;
-** implicit — неявные требования.
+* functional — функциональные требования;
+* non-functional — нефункциональные требования;
+* implicit — неявные требования.
 
-- иаип
+2) иаип
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ValeriaStroeva/qa-engineer-project-84/workflows/hexlet-check/badge.svg)](https://github.com/ValeriaStroeva/qa-engineer-project-84/actions)
