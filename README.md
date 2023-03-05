@@ -1,6 +1,6 @@
-Интернет-магазин (https://hexlet-products-store.vercel.app/)
-
 Тестирование небольшого интернет-магазина по продаже вещей.
+
+Интернет-магазин (https://hexlet-products-store.vercel.app/)
 
 Содержимое файлов:
 
